@@ -1,0 +1,10 @@
+<h2>Contact List</h2>
+<a href="{% url 'add_contact' %}">Add Contact</a> | 
+<a href="{% url 'feedback' %}">Send Feedback</a>
+<ul>
+  {% for c in contacts %}
+    <li>{{ c.name }} - {{ c.email }} - {{ c.phone }}</li>
+  {% empty %}
+    <li>No contacts available.</li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,20 @@
+[
+  {
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "9876543210"
+    }
+  },
+  {
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "9123456780"
+    }
+  }
+]
